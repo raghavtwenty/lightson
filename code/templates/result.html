@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block body %}
+	<div class="info-container">
+		<table>
+			<tr>
+				<th>Temperature</th>
+				<td>{{CT}}</td>
+			</tr>
+			<tr>
+				<th>Humidity</th>
+				<td>{{CH}}</td>
+			</tr>
+			<tr>
+				<th>Status</th>
+				<td>{{WD}}</td>
+			</tr>
+			<tr>
+				<th>Sunrise timing</th>
+				<td>{{S_rise}}</td>
+			</tr>
+			<tr>
+				<th>Sunset timing</th>
+				<td>{{S_set}}</td>
+			</tr>
+			<tr>
+				<th>Visibility</th>
+				<td>{{Vis}}</td>
+			</tr>
+			<tr>
+				<th>STREET LIGHT STATUS</th>
+				<td>{{lig}}</td>
+			</tr>
+		</table>
+	</div>
+{% endblock %}
